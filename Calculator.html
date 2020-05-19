@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    
+    <link href="style/site.css" rel="stylesheet" />
+    <link href="Style/bootstrap.css" rel="stylesheet" />
+    <link href="Style/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="Lang">
+        <img src="Icons/My Post (5).png" class="Img-Header" />
+        <a href="English.html" class="All-nav"><p class="Back"><</p></a>
+
+    </div>
+    <div id="splash">
+        <form name="cal" width="device-width" align="center">
+            <!-- input in line elevn shows results -->
+            <input type="text" class="txt" id="txt" name="text" placeholder="0.00" disabled /><br />
+            <!-- button. 7,8,9  and * is first line -->
+            <button type="button" class="btn" onclick="cal.text.value+='7'" value="7">7</button>
+            <button type="button" class="btn" onclick="cal.text.value+='8'" value="8">8</button>
+            <button type="button" class="btn" onclick="cal.text.value+='9'" value="9">9</button>
+            <button type="button" class="btn" onclick="cal.text.value+='*'" value="*">x</button>
+            <br />
+            <!-- button. 4,5,6 and / is second line-->
+            <button type="button" class="btn" onclick="cal.text.value+='4'" value="4">4</button>
+            <button type="button" class="btn" onclick="cal.text.value+='5'" value="5">5</button>
+            <button type="button" class="btn" onclick="cal.text.value+='6'" value="6">6</button>            <button type="button" class="btn" onclick="cal.text.value+='/'" value="÷">÷</button><br />
+            <!-- button. 1,2,3, And Ac is third line -->
+
+            <button type="button" class="btn" onclick="cal.text.value
++='1'" value="1">
+                1
+            </button>
+
+            <button type="button" class="btn" onclick="cal.text.value +='2'" value="2">2</button>
+
+            <button type="button" class="btn" onclick="cal.text.value+='3'" value="3">3</button>
+
+            <button type="reset" class="btn" value="ac" id="ac"> ac</button><br />
+            <!-- button. =,0,- and + is last line -->
+            <button type="button" class="btn" onclick="document.cal.text.value=eval(document.cal.text.value)" value="=">=</button>
+
+            <button type="button" class="btn" onclick="cal.text.value+=0" value="0" id="Zero">0</button>
+
+            <button type="button" class="btn" onclick="cal.text.value+='-'"
+                    value="-">
+                -
+            </button>
+
+            <button type="button" class="btn" onclick="cal.text.value+='+'" value="+">+</button><br />
+
+        </form>
+    </div>
+    <footer class="footer">
+        &copy; Nwenar Abbas - 2020
+    </footer>   
+</body>
+</html>

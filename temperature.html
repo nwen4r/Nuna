@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Link of angularJs-->
+    <link rel="stylesheet" href="Style/bootstrap.css" />
+    <link rel="stylesheet" href="Style/site.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+<body>
+
+    <div class="Lang">
+        <img src="Icons/My Post (5).png" class="Img-Header" />
+        <a href="English.html" class="All-nav"><p class="Back"><</p></a>
+       
+    </div>
+
+    <div ng-app ng-init="celsius=0;diff=32;kelvin=273.15" class="All">
+        <h1>Celsius</h1>
+        <!-- celsius and input is 12-->
+        <input type="number" id="cll" ng-model="celsius" />
+        <hr>
+        <h1>Fehrenhite</h1>
+        <!-- fahrenheit is multiplied to 1.8 and fahrenheit has called diff-->
+        From C to F: {{ celsius*1.8+diff }} F <br />
+        From F to C: {{diff-celsius*1.8}} C <br />
+        <!-- kelvin part multiplier to 1-->
+        <input type="number" id="cll" ng-model="diff" />
+        <hr>
+        <h1> Kelvin</h1>
+        From C to K: {{celsius*1+kelvin}} <br />
+        From K to C: {{celsius*1-kelvin}}<br />
+        <input type="number" id="cll" ng-model="kelvin" />
+        <hr>
+    </div>
+</body>
+</html>

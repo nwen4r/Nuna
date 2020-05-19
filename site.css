@@ -1,0 +1,142 @@
+﻿.Img-Header {
+    width: 100%;
+    height: auto;
+    background-image: url('My Post (5).png');
+}
+
+.All {
+    text-align: center;
+    margin:5rem auto !important;
+    padding-left:3rem;  
+}
+.Back {
+    font-size: 3rem;
+}
+a{
+    color:black;
+}
+a:hover ,a::after ,a:active ,a:visited {
+    color: black;
+}
+.h1 {
+   cursor:no-drop;
+    text-align: center;
+}
+ h1,h2,h3,h4,h5,h6, p{
+    cursor: pointer;
+ }
+.Circle{
+    padding:10px;
+}
+
+.cu-Card-header {
+    font-size: 24px;
+    color: Black;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+    .cu-Card-header:hover {
+        color: red;
+        transform: rotate(360deg);
+    }
+
+.Lang {
+    position: relative;
+    text-align: center;
+}
+.All-nav {
+   position: absolute;
+  top: 8px;
+  left: 16px;
+  padding-left:5rem;
+  padding-right:5rem;
+  color:white;
+
+}
+.space-nav {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-left: 20rem;
+    color: white;
+}
+.space-nav:hover{
+    color:white;
+    text-decoration:none;
+}
+.footer {
+    text-align: center;
+    font-family: 'Courier New';
+    border-top: solid;
+    border-width: 0.5px;
+    border-color: grey;
+}
+
+#cll {
+    align-content: center;
+    align-items: center;
+    Border: solid;
+    border-radius: 5px;
+    border-width: 0.8px;
+    margin-left: 75px;
+    Padding-bottom: 8px;
+}
+
+.Back{
+    font-size:5rem;
+}
+.Back:hover{
+    color:red;
+}
+
+
+.btn {
+    /*buttons*/
+    width: 60px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    /* Border part*/
+    border: solid;
+    border-color: orange;
+    background-color: orange;
+    border-radius: 65px;
+    /*Font part*/
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+}
+
+    .btn:hover {
+        background-color: #fcb103;
+    }
+
+.txt {
+    /*Results*/
+    /*Border*/
+    border: none;
+    background: none;
+    margin-left: 35px;
+    /*Font  of result*/
+    font: bold;
+    font-size: 40px;
+    color: Black;
+    font-style: italic;
+}
+
+    .txt:hover {
+        border-bottom: solid;
+        border-color: orange;
+    }
+
+.features , .features:hover{
+    text-decoration:none;
+
+}
+
+
+    
+
+
+
